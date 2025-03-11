@@ -14,6 +14,8 @@ import java.util.List;
 @RequestMapping("/api/v1/booking")
 public class BookingController {
 
+    // for testing
+    @Autowired
     BookingService bookingService;
 
     @Autowired
